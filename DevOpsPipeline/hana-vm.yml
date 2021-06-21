@@ -58,9 +58,9 @@ parameters:
 - name: vnet_subnet
   displayName: Target VNET & Subnet
   type: string
-  default: "SAPDemoEnvironmentNetwork/subnets/sapdevsubnet"
+  default: "ra-sap-hana-vnet/subnets/sapdevsubnet"
   values:
-  - "SAPDemoEnvironmentNetwork/subnets/sapdevsubnet"
+  - "ra-sap-hana-vnet/subnets/sapdevsubnet"
   - "SAPSpokeGWC/subnets/sapdevsubnet"
   # Adapt according to your target landing zone
   # "<VNET>/subnets/<subnet>"
