@@ -61,7 +61,7 @@ parameters:
   default: "ra-sap-hana-vnet
 "
   values:
-  - "ra-sap-hana-vnet
+  - vnet-sap-prod-westeurope-001/snet-sap-admin-westeurope-001
 "
 
   # Adapt according to your target landing zone
