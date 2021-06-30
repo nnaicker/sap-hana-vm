@@ -60,8 +60,8 @@ parameters:
   type: string
   default: "ra-sap-hana-vnet/subnets/sapdevsubnet"
   values:
-  - "ra-sap-hana-vnet/subnets/sapdevsubnet"
-  - "SAPSpokeGWC/subnets/sapdevsubnet"
+  - "vnet-sap-prod-westeurope-001/snet-sap-admin-westeurope-001"
+
   # Adapt according to your target landing zone
   # "<VNET>/subnets/<subnet>"
 
