@@ -414,7 +414,7 @@ stages:
       displayName: 'Remove Resource Group'
       inputs:
         deploymentScope: 'Resource Group'
-        azureResourceManagerConnection: '$(azureconnectionname)'
+        azureResourceManagerConnection: '$(MMergel)'
         subscriptionId: '$(subscription)'
         action: 'DeleteRG'
         resourceGroupName: '$(hanavmrg)'
