@@ -45,6 +45,7 @@ echo "##########################################################################
 echo "To Do 1."
 echo "DevOps Agent configuration, connection, install the service and start the deamon"
 echo "./config.sh"
+echo "export AGENT_ALLOW_RUNASROOT="1"
 echo "sudo ./svc.sh install"
 echo "sudo ./svc.sh start"
 echo "##################################################################################"
