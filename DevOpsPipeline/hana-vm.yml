@@ -58,7 +58,7 @@ parameters:
 - name: vnet_subnet
   displayName: Target VNET & Subnet
   type: string
-  default: "ra-sap-hana-vnet"
+  default: "vnet-sap-prod-westeurope-001/snet-sap-admin-westeurope-001"
   values:
   - "vnet-sap-prod-westeurope-001/snet-sap-admin-westeurope-001"
 
