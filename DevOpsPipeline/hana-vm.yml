@@ -58,11 +58,9 @@ parameters:
 - name: vnet_subnet
   displayName: Target VNET & Subnet
   type: string
-  default: "ra-sap-hana-vnet
-"
+  default: "ra-sap-hana-vnet"
   values:
-  - vnet-sap-prod-westeurope-001/snet-sap-admin-westeurope-001
-"
+  - "vnet-sap-prod-westeurope-001/snet-sap-admin-westeurope-001"
 
   # Adapt according to your target landing zone
   # "<VNET>/subnets/<subnet>"
